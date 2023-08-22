@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.backgroundImage>img {
+    width: 100%;
+    height: 100Vh;
+    position: fixed;
+    z-index: -10;
+}
+.backgroundColor {
+    background-color: #005477;
+    width: 100%;
+    height: 100Vh;
+    position: fixed;
+    z-index: -5;
+    opacity: 0.5;
+}
+
+@font-face {
+    font-family: TESLA;
+    src: url(./TESLA.ttf);
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.headerOne {
+    display: flex;
+    text-align: center;
+}
+
+.logo_OV {
+    /* display: flex; */
+    font-family: TESLA;
+    color: white;
+    font-size: 80px;
+    margin: 0;
+}
+
+.logo_IK {
+    color: #600100;
+    font-size: 100px;
+}
+
+.quiz {
+    color: #FFA500;
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+    padding-top: 23px;
+    font-weight: 600;
+}
+.startButton {
+    width: 400px;
+    border-radius: 25px;
+    border: none;
+}
+.startButton:hover {
+    background-color: #600100;
+}
+a.quizLink {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+a.quizLink:hover {
+    color: white;
+}
+
