@@ -156,180 +156,149 @@ const quizArray = [
   },
   {
     id: "18",
-    question: "What is the full form of USB?",
+    question: "What is the full form of LAN?",
     options: [
-      "Universal Serial Bus",
-      "United States of America Business",
-      "User Serial Business",
-      "Universal Serial Battery",
+      "Local Area Network",
+      "Local Authorization Network",
+      "Logical Area Network",
+      "Logical Authorization Network",
     ],
-    correct: "Universal Serial Bus",
+    correct: "Local Area Network",
   },
   {
-    id: "4",
-    question: "What is the full form of USB?",
+    id: "19",
+    question: "Which of the following is not a web browser?",
     options: [
-      "Universal Serial Bus",
-      "United States of America Business",
-      "User Serial Business",
-      "Universal Serial Battery",
+      "Google Chrome",
+      "Microsoft Word",
+      "Mozilla Firefox",
+      "Internet Explorer",
     ],
-    correct: "Universal Serial Bus",
+    correct: "Microsoft Word",
   },
   {
-    id: "4",
-    question: "What is the full form of USB?",
-    options: [
-      "Universal Serial Bus",
-      "United States of America Business",
-      "User Serial Business",
-      "Universal Serial Battery",
-    ],
-    correct: "Universal Serial Bus",
+    id: "20",
+    question: "Which of the following is not a search engine?",
+    options: ["Google", "Yahoo", "Bing", "Windows"],
+    correct: "Windows",
   },
   {
-    id: "4",
-    question: "What is the full form of USB?",
+    id: "21",
+    question: "What is the function of a mouse in a computer?",
     options: [
-      "Universal Serial Bus",
-      "United States of America Business",
-      "User Serial Business",
-      "Universal Serial Battery",
+      "To input data",
+      "To output data",
+      "To store data",
+      "To navigate",
     ],
-    correct: "Universal Serial Bus",
+    correct: "To navigate",
+  },
+  {
+    id: "22",
+    question: "What is the function of a mouse in a computer?",
+    options: [
+      "To input data",
+      "To output data",
+      "To store data",
+      "To navigate",
+    ],
+    correct: "To navigate",
+  },
+  {
+    id: "23",
+    question: "The Third Generation Computer was made with____.",
+    options: [
+      "Vacuum Tube",
+      "Discrete Components",
+      "Integrated circuits",
+      "Bio Chips",
+    ],
+    correct: "Integrated circuits",
+  },
+  {
+    id: "24",
+    question:
+      "Which of these languages uses a two-step compilation process both interpreter and compiler?",
+    options: ["COBOL", "BASIC", "Java", "C++"],
+    correct: "Java",
+  },
+  {
+    id: "25",
+    question:
+      "A hacker that changes or forges information in an electronic resource, is engaging in __________.",
+    options: ["denial of service", "sniffing", "terrorism", "data diddling"],
+    correct: "data diddling",
+  },
+  {
+    id: "26",
+    question: "The Third Generation Computer was made with____.",
+    options: [
+      "Vacuum Tube",
+      "Discrete Components",
+      "Integrated circuits",
+      "Bio Chips",
+    ],
+    correct: "Integrated circuits",
+  },
+  {
+    id: "27",
+    question: "What is a Firewall in Computer Network?",
+    options: [
+      "An operating System of Computer Network",
+      "The physical boundary of Network",
+      "A web browsing Software",
+      "A system designed to prevent unauthorized access",
+    ],
+    correct: "A system designed to prevent unauthorized access",
+  },
+  {
+    id: "28",
+    question:
+      "What kind of lock includes a keypad that can be used to control access into areas?",
+    options: ["Cipher", "Warded", "Device", "Tumbler"],
+    correct: "Cipher",
+  },
+  {
+    id: "29",
+    question:
+      "The digital telecommunications term ISDN is an abbreviation for ______.",
+    options: [
+      "Integrated Standard Digital Networks",
+      "Internet Services Data Network",
+      "Interactive Standard Dynamic Networks",
+      "Integrated Services Digital Network",
+    ],
+    correct: "Integrated Services Digital Network",
+  },
+  {
+    id: "30",
+    question:
+      "________ is an important circuitry in a computer system that directs the operation of the processor.",
+    options: ["Memory", "Control Unit", "Address Bus", "Accumulator"],
+    correct: "Control Unit",
+  },
+  {
+    id: "31",
+    question: "Switch is a network device whose responsibility is to_______.",
+    options: [
+      "Protect from virus attack",
+      "turn of the power to network",
+      "Connect Network devices",
+      "Boot the network",
+    ],
+    correct: "Connect Network devices",
+  },
+  {
+    id: "32",
+    question:
+      "A type of device used to connect a central processor and peripherals which uses multiplying is known as _____.",
+    options: ["Modem", "Network", "Multiplexer", "All of these"],
+    correct: "Multiplexer",
+  },
+  {
+    id: "33",
+    question: "Second-generation computers are made of ______.",
+    options: ["Vacuum Tubes", "Transistors", "LSI", "VLSI"],
+    correct: "Transistors",
   },
 ];
-
-// computer Science Questions
-
-// const questions = [
-//   {
-//     q: "What is the full form of LAN?",
-//     a: [
-//       { text: "Local Area Network", isCorrect: true },
-//       { text: "Local Authorization Network", isCorrect: false },
-//       { text: "Logical Area Network", isCorrect: false },
-//       { text: "Logical Authorization Network", isCorrect: false },
-//     ],
-//   },
-//   {
-//     q: "Which of the following is not a web browser?",
-//     a: [
-//       { text: "Google Chrome", isCorrect: false },
-//       { text: "Microsoft Word", isCorrect: true },
-//       { text: "Mozilla Firefox", isCorrect: false },
-//       { text: "Internet Explorer", isCorrect: false },
-//     ],
-//   },
-//   {
-//     q: "Which of the following is not a search engine?",
-//     a: [
-//       { text: "Google", isCorrect: false },
-//       { text: "Yahoo", isCorrect: false },
-//       { text: "Bing", isCorrect: false },
-//       { text: "Windows", isCorrect: true },
-//     ],
-//   },
-//   {
-//     q: "What is the function of a mouse in a computer?",
-//     a: [
-//       { text: "To input data", isCorrect: false },
-//       { text: "To output data", isCorrect: false },
-//       { text: "To store data", isCorrect: false },
-//       { text: "To navigate", isCorrect: true },
-//     ],
-//   },
-//   {
-//     q: "The Third Generation Computer was made with____.",
-//     a: [
-//       { text: "Vacuum Tube", isCorrect: false },
-//       { text: "Discrete Components", isCorrect: false },
-//       { text: "Integrated circuits", isCorrect: true },
-//       { text: "Bio Chips", isCorrect: false },
-//     ],
-//   },
-//   {
-//     q: "Which of these languages uses a two-step compilation process both interpreter and compiler?",
-//     a: [
-//       { text: "COBOL", isCorrect: false },
-//       { text: "BASIC", isCorrect: false },
-//       { text: "Java", isCorrect: true },
-//       { text: "C++", isCorrect: false },
-//     ],
-//   },
-//   {
-//     q: "A hacker that changes or forges information in an electronic resource, is engaging in __________.",
-//     a: [
-//       { text: "denial of service", isCorrect: false },
-//       { text: "sniffing", isCorrect: false },
-//       { text: "terrorism", isCorrect: false },
-//       { text: "data diddling", isCorrect: true },
-//     ],
-//   },
-//   {
-//     q: "What is a Firewall in Computer Network?",
-//     a: [
-//       { text: "An operating System of Computer Network", isCorrect: false },
-//       { text: "The physical boundary of Network", isCorrect: false },
-//       { text: "A web browsing Software", isCorrect: false },
-//       {
-//         text: "A system designed to prevent unauthorized access",
-//         isCorrect: true,
-//       },
-//     ],
-//   },
-//   {
-//     q: "What kind of lock includes a keypad that can be used to control access into areas?",
-//     a: [
-//       { text: "Cipher", isCorrect: true },
-//       { text: "Warded", isCorrect: false },
-//       { text: "Device", isCorrect: false },
-//       { text: "Tumbler", isCorrect: false },
-//     ],
-//   },
-//   {
-//     q: "The digital telecommunications term ISDN is an abbreviation for ______.",
-//     a: [
-//       { text: "Integrated Standard Digital Networks", isCorrect: false },
-//       { text: "Internet Services Data Network", isCorrect: false },
-//       { text: "Interactive Standard Dynamic Networks", isCorrect: false },
-//       { text: "Integrated Services Digital Network", isCorrect: true },
-//     ],
-//   },
-//   {
-//     q: "________ is an important circuitry in a computer system that directs the operation of the processor.",
-//     a: [
-//       { text: "Memory", isCorrect: false },
-//       { text: "Control Unit", isCorrect: true },
-//       { text: "Address Bus", isCorrect: false },
-//       { text: "Accumulator", isCorrect: false },
-//     ],
-//   },
-//   {
-//     q: "Switch is a network device whose responsibility is to_______.",
-//     a: [
-//       { text: "Protect from virus attack", isCorrect: false },
-//       { text: "turn of the power to network", isCorrect: false },
-//       { text: "Connect Network devices", isCorrect: true },
-//       { text: "Boot the network", isCorrect: false },
-//     ],
-//   },
-//   {
-//     q: "A type of device used to connect a central processor and peripherals which uses multiplying is known as _____.",
-//     a: [
-//       { text: "Modem", isCorrect: false },
-//       { text: "Network", isCorrect: false },
-//       { text: "Multiplexer", isCorrect: true },
-//       { text: "All of these", isCorrect: false },
-//     ],
-//   },
-//   {
-//     q: "Second-generation computers are made of ______.",
-//     a: [
-//       { text: "Vacuum Tubes", isCorrect: false },
-//       { text: "Transistors", isCorrect: true },
-//       { text: "LSI", isCorrect: false },
-//       { text: "VLSI", isCorrect: false },
-//     ],
-//   },
-// ];
